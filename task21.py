@@ -14,10 +14,10 @@ list_of_dicts = [{"V": "S001"},
                  {"VIII": "S007"}]
 uniq_el = set()
 for i in list_of_dicts:
-    for key in i: 
+    for key in i:
         element = i[key]
         uniq_el.add(element)
 print(uniq_el)
 
-uniq_el1 = set(list(i.values())[0] for i in list_of_dicts)
-print(uniq_el1)
+# uniq_el1 = set(list(i.values())[0] for i in list_of_dicts)
+# print(uniq_el1)

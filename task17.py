@@ -10,5 +10,6 @@ for i in set(nums):
     if nums.count(i) == 1:
         result.append(i)
 print(result, len(result))
+
 result1 = [i for i in set(nums) if nums.count(i) == 1]
 print(result1)
