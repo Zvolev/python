@@ -22,7 +22,7 @@ for i in range(m):
     set2.add(element)
 
 common_elements = sorted(list(set1.intersection(set2)))
-print(f"Общие без повторений элементы в порядке возрастания: {common_elements}")
+print(f"Общие без повторений в порядке возрастания: {common_elements}")
 
 
 # Сначала мы запрашиваем у пользователя n и m - количество элементов
