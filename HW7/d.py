@@ -17,7 +17,7 @@
 
 
 def print_operation_table(operation, num_rows=7, num_columns=5):
-    for i in range(1, num_rows + 1):  # Нумерация строк и столбцов идет с единицы во избежание заполнения нулевыми значениями первых строки и столбца
+    for i in range(1, num_rows + 1):  # Нумерация строк и столбцов идет с единицы во избежание ошибок, связанных с вычислениями (например: деление на 0)
         for j in range(1, num_columns + 1):
             print(operation(i, j), end=' ')
         print()
